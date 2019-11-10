@@ -5,4 +5,4 @@ double Sqrt(double v, int initial_guess = 1);
 bool isPrime(int num);
 
 // Absolute value function
-double abs(double val)
+double abs(double val);
