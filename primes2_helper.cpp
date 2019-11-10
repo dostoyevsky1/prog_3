@@ -50,3 +50,19 @@ if(check==0)
 
 }
 
+// Nth Prime Generator
+int Prime(int n)
+{
+    int i = 2, counter = 0;
+
+    while(counter<n)
+    {
+        if(isPrime(i)==true)
+        {
+            counter++;
+        }
+        i++;   
+    }
+
+    return i-1;
+}

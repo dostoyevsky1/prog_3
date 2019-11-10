@@ -7,7 +7,7 @@ int main()
 std::cout << isPrime(19);
 
 
-
+std::cout << std::endl << Prime(7);
 
 
 

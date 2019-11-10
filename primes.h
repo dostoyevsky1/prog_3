@@ -6,3 +6,6 @@ bool isPrime(int num);
 
 // Absolute value function
 double abs(double val);
+
+// Nth Prime Generator
+int Prime(int n);
