@@ -22,7 +22,19 @@ int main()
                 std::cout << std::endl << 
                 Prime(num) << std::endl << std::endl;
                 continue;
+            case 'f':
+                std::cout << std::endl << "Enter the Nth prime number you'd like to find: " << std::endl;
+                std::cin >> num;
+                std::cout << std::endl << 
+                Prime(num) << std::endl << std::endl;
+                continue;
             case 'T':
+                std::cout << std::endl << "Enter a number to test if prime: " << std::endl;
+                std::cin >> num;
+                std::cout << std::endl << 
+                isPrime(num) << std::endl << std::endl;
+                continue;
+            case 't':
                 std::cout << std::endl << "Enter a number to test if prime: " << std::endl;
                 std::cin >> num;
                 std::cout << std::endl << 
@@ -30,11 +42,13 @@ int main()
                 continue;
             case 'Q':
                 selection_var = 'Q';
+                continue;
+            case 'q':
+                selection_var = 'Q';
+                continue;
         }
         
     } while (selection_var != 'Q');
-
-
 
 
 
