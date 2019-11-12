@@ -31,15 +31,31 @@ int main()
             case 'T':
                 std::cout << std::endl << "Enter a number to test if prime: " << std::endl;
                 std::cin >> num;
-                std::cout << std::endl << 
-                isPrime(num) << std::endl << std::endl;
-                continue;
+                if(isPrime(num) > 0)
+                {
+                    std::cout << std::endl << 
+                    "Prime" << std::endl << std::endl;
+                    continue;
+                } else
+                {
+                    std::cout << std::endl <<
+                    "Not Prime" << std::endl << std::endl;
+                    continue;
+                }
             case 't':
                 std::cout << std::endl << "Enter a number to test if prime: " << std::endl;
                 std::cin >> num;
-                std::cout << std::endl << 
-                isPrime(num) << std::endl << std::endl;
-                continue;
+                if(isPrime(num) > 0)
+                {
+                    std::cout << std::endl << 
+                    "Prime" << std::endl << std::endl;
+                    continue;
+                } else
+                {
+                    std::cout << std::endl <<
+                    "Not Prime" << std::endl << std::endl;
+                    continue;
+                }
             case 'Q':
                 selection_var = 'Q';
                 continue;
